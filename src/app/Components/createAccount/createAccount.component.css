@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap');
 
-.form-login{
+.form-create{
     border: 1px solid #b1b1b1;
     padding: 40px;
     border-radius: 10px;
@@ -8,15 +8,16 @@
     font-family: 'Outfit', sans-serif;
 }
 
-.form-label{
+.form-label, .create-btn{
     font-family: 'Outfit', sans-serif;
-    font-weight: 600 !important;
+    font-weight: 600;
 }
 
 .span-font{
     position: absolute;
 }
 
-.forgot{
+button a {
     text-decoration: none;
+    color: #ffffff;
 }

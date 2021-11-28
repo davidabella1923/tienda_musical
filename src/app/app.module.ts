@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +11,8 @@ import { ShoppingComponent } from './Components/shopping/shopping.component';
 import { CatalogueComponent } from './Components/catalogue/catalogue.component';
 import { FooterComponent } from './Shared/footer/footer.component';
 import { NavbarComponent } from './Shared/navbar/navbar.component';
+import { NotfoundComponent } from './Components/notfound/notfound.component';
+import { CreateAccountComponent } from './Components/createAccount/createAccount.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +23,14 @@ import { NavbarComponent } from './Shared/navbar/navbar.component';
     ShoppingComponent,
     CatalogueComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    NotfoundComponent,
+    CreateAccountComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -17,7 +17,7 @@
             <div class="mt-3 mb-5">
                 <label class="form-label">Password</label>
                 <input type="text" class="form-control" formControlName="passwordLogin">
-                <a routerLink="/create" class="forgot">Forgot your password?</a>
+                <a routerLink="" class="forgot">Forgot your password?</a>
                 <span class="text-danger fw-bold span-font" *ngIf="LoginForm.get('passwordLogin')?.hasError('required') && LoginForm.get('passwordLogin')?.touched">Please type your password.</span>
             
             </div>

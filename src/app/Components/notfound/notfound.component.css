@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap');
+
+.error-message{
+    border: 1px solid #b1b1b1;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    font-family: 'Outfit', sans-serif;
+}
+
+.error-message h2{
+    font-weight: 600;
+}

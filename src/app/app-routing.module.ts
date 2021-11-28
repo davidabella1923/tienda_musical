@@ -15,9 +15,9 @@ const routes: Routes = [
 {path: 'catalogue', component: CatalogueComponent},
 {path: 'create', component: CreateAccountComponent},
 {path:'login', component: LoginComponent},
-{path:'shopping', component: ShoppingComponent}
-// {path:'404', component: NotfoundComponent},
-// {path: '**', redirectTo: '404', pathMatch: 'full'}
+{path:'shopping', component: ShoppingComponent},
+{path:'404', component: NotfoundComponent},
+{path: '**', redirectTo: '404', pathMatch: 'full'}
 ];
 
 @NgModule({

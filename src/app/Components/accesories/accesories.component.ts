@@ -1,39 +1,40 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-catalogue',
-  templateUrl: './catalogue.component.html',
-  styleUrls: ['./catalogue.component.css']
+  selector: 'app-accesories',
+  templateUrl: './accesories.component.html',
+  styleUrls: ['./accesories.component.css']
 })
-export class CatalogueComponent implements OnInit {
+export class AccesoriesComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit(): void {
   }
+
   instrumentos:any = [
     {
-      "title":"Guitarra Clasica",
-      "Description":"Electroacústica Texas",
-      "Imagen":"assets/img/catalogue/guitarra1.jpg",
-      "price":330000
+      "title":"Afinador Electronico",
+      "Description":"Cromático PW",
+      "Imagen":"assets/img/catalogue/afinador1.jpg",
+      "price":48000
     },
     {
-      "title":"Guitarra Acústica",
-      "Description":"Marcate Ecológica",
-      "Imagen":"assets/img/catalogue/guitarra2.jpg",
-      "price":280000
+      "title":"Afinador Andario",
+      "Description":"Cromatico-Black",
+      "Imagen":"assets/img/catalogue/afinador2.jpg",
+      "price":48500
     },
     {
-      "title":"Guitarra electrica ",
+      "title":"Afinador Taylor",
       "Description":"Texas ADK-E10W",
-      "Imagen":"assets/img/catalogue/guitarra3.jpg",
+      "Imagen":"assets/img/catalogue/afinador3.jpg",
       "price":368000
     },{
-      "title":"Guitarra Eléctrica ",
-      "Description":"Texas ADK-E100, Black",
-      "Imagen":"assets/img/catalogue/guitarra4.jpg",
-      "price":370000
+      "title":"Afinor Electronico ",
+      "Description":"Cromatico, Black",
+      "Imagen":"assets/img/catalogue/afinador4.jpg",
+      "price":74200
     },
     {
       "title":"Guitarra Eléctrica ",
@@ -73,3 +74,4 @@ export class CatalogueComponent implements OnInit {
     }
   ]
 }
+

@@ -8,6 +8,7 @@ import { LoginComponent } from './Components/login/login.component';
 import { ShoppingComponent } from './Components/shopping/shopping.component';
 import { NotfoundComponent } from './Components/notfound/notfound.component';
 import { CreateAccountComponent } from './Components/createAccount/createAccount.component';
+import { AccesoriesComponent } from './Components/accesories/accesories.component';
 
 const routes: Routes = [  
 {path: '', component: HomeComponent},
@@ -16,6 +17,7 @@ const routes: Routes = [
 {path: 'create', component: CreateAccountComponent},
 {path:'login', component: LoginComponent},
 {path:'shopping', component: ShoppingComponent},
+{path:'accesories', component: AccesoriesComponent},
 {path:'404', component: NotfoundComponent},
 {path: '**', redirectTo: '404', pathMatch: 'full'}
 ];

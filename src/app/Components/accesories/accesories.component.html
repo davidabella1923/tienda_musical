@@ -1,0 +1,18 @@
+<h1 class="p-4">Catálogo de instrumentos musicales</h1>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col" *ngFor="let Item of instrumentos">
+            <div class="card border-3 m-lg-2">
+    
+                <h5 class="card-title p-4">{{Item.title}}</h5>
+                <img src="{{Item.Imagen}}" class="card-img-top" alt="...">
+                <div class="card-body">
+    
+                    <p class="card-text ">{{Item.Description}}</p>
+                </div>
+                <h3 class="m-lg-3">Precio:${{Item.price}}</h3>
+                <button class="btn btn-primary  ">Comprar</button>
+            </div>
+        </div>
+    </div>
+

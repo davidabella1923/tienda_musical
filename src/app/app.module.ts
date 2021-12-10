@@ -13,6 +13,8 @@ import { FooterComponent } from './Shared/footer/footer.component';
 import { NavbarComponent } from './Shared/navbar/navbar.component';
 import { NotfoundComponent } from './Components/notfound/notfound.component';
 import { CreateAccountComponent } from './Components/createAccount/createAccount.component';
+import { AccesoriesComponent } from './Components/accesories/accesories.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { CreateAccountComponent } from './Components/createAccount/createAccount
     FooterComponent,
     NavbarComponent,
     NotfoundComponent,
-    CreateAccountComponent
+    CreateAccountComponent,
+    AccesoriesComponent
   ],
   imports: [
     BrowserModule,

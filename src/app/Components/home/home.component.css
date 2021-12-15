@@ -1,0 +1,21 @@
+
+
+.container-fluid{
+    
+   background-color: rgba(134, 132, 131, 0.794);
+   background-size: 100%;
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+
+}
+.fondo {
+     
+    border-radius: 10px; 
+}
+.rounded-circle {
+    width:200px;
+    height:200px; 
+}
+
+

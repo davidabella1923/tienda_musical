@@ -2,7 +2,7 @@
 
 .container-fluid{
     
-   background-color: rgba(134, 132, 131, 0.794);
+   background-color: rgba(190, 187, 185, 0.822);
    background-size: 100%;
    background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,6 +16,11 @@
 .rounded-circle {
     width:200px;
     height:200px; 
+}
+.redesSocial {
+             width:30px;
+			top:30px;
+			
 }
 
 

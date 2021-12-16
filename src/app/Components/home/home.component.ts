@@ -43,5 +43,11 @@ cardCirculos: any = [
   }
 
 ]
+  misRedes: any = [
+    "assets/img/catalogue/facebook.png",
+    "assets/img/catalogue/instagram.png",
+    "assets/img/catalogue/whatsapp.png",
+    "assets/img/catalogue/twitter.png"
+  ]
 }
 

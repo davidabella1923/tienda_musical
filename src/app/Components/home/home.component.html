@@ -47,11 +47,11 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-</div>
+  </div>
 
-<!-- Card -->
+  <!-- Card -->
 
-<div class="row row-cols-1 row-cols-md-3 g-5 mt-3">
+  <div class="row row-cols-1 row-cols-md-3 g-5 mt-3">
   <div *ngFor="let item of tipoArticulos" class="col ">
     <div class="card fondo bg-dark">
       <h4 class="card-title p-3 text-white">PRODUCTOS</h4>
@@ -70,38 +70,26 @@
         </div>
        
         <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
+    <footer class="text-center text-lg-start bg-light text-muted">
   <!-- Section: Social media -->
   <section
-    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-  >
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
    
     <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
+      <span>Conéctese con nosotros en las redes sociales:</span>
     </div>
  
 
-    <!-- Right -->
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
+    <!-- Redes sociales -->
+    <div class="d-flex justify-content-center justify-content-lg ">
+      <div *ngFor="let itemredes of misRedes">
+       <a href="" class="me-4 text-reset">
+         <img src="{{itemredes}}" class="redesSocial"  alt="facebook">
+       </a>
+      </div>
+     </div>
+ 
+
     <!-- Right -->
   </section>
   <!-- Section: Social media -->
@@ -115,11 +103,10 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
+            <i class="fas fa-gem me-3"></i>EMPRESA
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+           Tienda musical con gran variedad de productos escoge el tuyo 
           </p>
         </div>
         <!-- Grid column -->
@@ -128,19 +115,19 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Products
+            Productos
           </h6>
           <p>
-            <a href="#!" class="text-reset">Angular</a>
+            <a href="#!" class="text-reset">Guitarras</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">React</a>
+            <a href="#!" class="text-reset">Amplificadores</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Vue</a>
+            <a href="#!" class="text-reset">Bajos</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Laravel</a>
+            <a href="#!" class="text-reset">Baterias</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -149,19 +136,19 @@
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
+            Enlaces utiles 
           </h6>
           <p>
-            <a href="#!" class="text-reset">Pricing</a>
+            <a href="#!" class="text-reset">Precio</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Settings</a>
+            <a href="#!" class="text-reset">Ajustes</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Orders</a>
+            <a href="#!" class="text-reset">Pedidos</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Help</a>
+            <a href="#!" class="text-reset">Ayuda</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -170,7 +157,7 @@
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Contact
+            Contacto
           </h6>
           <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
           <p>
@@ -192,9 +179,9 @@
     © 2021 Copyright:
     <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
   </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
+ 
+  </footer>
+</div>
       
     
 
